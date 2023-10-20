@@ -1,2 +1,4 @@
 FROM alpine:3.18.0
-ENTRYPOINT ["echo", "Hello"]
+RUN apk add aspnetcore7-runtime
+COPY ./bin/publish /opt/hello
+ENTRYPOINT ["dotnet", "/opt/hello/Martin.Hello.dll"]
