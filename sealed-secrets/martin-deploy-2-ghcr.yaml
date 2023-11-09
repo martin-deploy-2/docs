@@ -1,0 +1,20 @@
+# This file is generated, do not edit manually.
+# When editing, run `Protect-Secret.ps1` to regenerate.
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  annotations:
+    sealedsecrets.bitnami.com/cluster-wide: "true"
+  creationTimestamp: null
+  name: martin-deploy-2-ghcr
+spec:
+  encryptedData:
+    .dockerconfigjson: AgDlKvpiDCgvpxD0G11uOvu0yJ+shUp2nVsLxnWxj9Ygx/MMolUlpfPeiB4adPEnOGCIspQXhZfjzefZRx24b5VOl3B1cKryR6MVFPed5hOCwFWEzEEDPveqBjCQcz2C16ti+9UGbz7NPuI1sZonudGNo77cqmgr2g1oKkwiKJ1lvEfaC7iZoTXsAj6ZCQe6p3wx7eh8MvbpgGS6KIgY4UYkyFSk5XrwLQ1BNVHeflM/HAiJhFOl3pAuu4/O+bjSLmCi8EmTYXksVvvGBmr/EeDTAAV9a8xZZ4GY6WIj5aq/xD1FQAo9berpkeZVOxnCu5vIPrFDWltObblIzRET+HuluPGsM9p5qmTTzVlSfppNCT67P6uaYrewdgo4MuxmxQ1UA8eQzH5sq0jleI2Y/vh7S9ayCtqeu3T2B9ukMVFBv0oG8WR99W6Wuy1sMyhRYkwbqTg/IBPxNdDxPmIOXhozRxqZDxefy8e5I8WFsqeVRkC7gTfRrN3CsVa0vupImpibQpnnaqBJ1mcg6iGStxUl73Q5s3QoP2vpdsn5bwlRavV8TEZATCPNHY+Xp7NhKYlrnkj6Q7Zo+88tdeHjJC2zZMj6yl87oVoVfLDTVRb45Ak2FX9+Ufazt8Q2zOogXTUu1WXdl/QGHh8hMwSfaQBFQfwErkq8F8ANnCz+l9SteoM94sJOsLHA2jdPVwuvCk69uraRcv/rD26nnoZGWpV7/LTVPd1dE/jQqY+xCTzvU3wFFpjH3kJPri8rWmstY5OlxvapGul+FKEao5SBy7CrxG5V7lSqpXvXpbJyVYUBPPeThr+2pelSR3ISzYaFpqN1NxP+KFccoSvFvutpBlJHyYwn3hz1pQ8ayKQMwayRy9eMos4nqM6IrEt9JA==
+  template:
+    metadata:
+      annotations:
+        sealedsecrets.bitnami.com/cluster-wide: "true"
+      creationTimestamp: null
+      name: martin-deploy-2-ghcr
+    type: kubernetes.io/dockerconfigjson

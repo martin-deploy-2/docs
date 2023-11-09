@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello
+spec:
+  selector:
+    app.kubernetes.io/name: 2545bb8b-e59c-4f4a-b362-2d1591215f25
+  ports:
+    - port: 5000
+      targetPort: 80

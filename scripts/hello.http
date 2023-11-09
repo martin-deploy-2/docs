@@ -1,0 +1,12 @@
+@BASE_URL = http://localhost:5000
+
+###############################################################################
+# This should return "Hello.", plain-text.
+
+GET {{BASE_URL}}/
+
+###############################################################################
+# @prompt NAME
+# This should return "Hello, <NAME>.", plain-text.
+
+GET {{BASE_URL}}/{{NAME}}
